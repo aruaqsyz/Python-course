@@ -56,7 +56,7 @@ print('%.2f' % ans)
 
 # task 1.3.7
 x = 0,8; y = 0,1; z = 4
-ans = math.sqrt((1-x+math.atan(x-7*y))/(4*x*z-math.pow(math.log10(y),2)))
+ans = math.pow((1-x+math.atan(x-7*y))/(4*x*z-math.pow(math.log10(y),2)),1/5)
 print('%.2f' % ans)
 
 # task 1.3.8
