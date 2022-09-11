@@ -1,4 +1,7 @@
 import math
+# exercise
+x = 10; t = 1
+ans = (9*math.pi*t+10*math.cos(x)) / (math.sqrt(t)-math.fabs(math.sin(t))) * math.pow(math.e, x)
 
 # task 1.1
 a = int(input("a: "))
