@@ -15,8 +15,8 @@ def to_list(*a):
 print(to_list(1,2,3,4,5,6,7,8,9,10))
 
 #task 4
-def uselessNumber(llst):
-    return max(llst)/len(llst)
+def uselessNumber(a):
+    return max(a)/len(a)
 print(uselessNumber(a))
 
 #task 5
